@@ -1,7 +1,7 @@
 {
   "name": "full-stack-app",
   "version": "1.0.0",
-  "description": "PROJECT FEATURES -----------------   > REGISTRATION   > LOGIN    > VIEW PROFILE   > EDIT PROFILE   > DELETE PROFILE   > CHANGE PASSWORD   > FORGET PASSWORD   > RESET PASSWORD   > LOGOUT   > ROLE MANAGEMENT, JWT AUTHENTICATION AND EMAIL SERVICE   > CORS, CSRF ATTACK PREVENTION, SQL INJECTION PREVENTION",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,19 +11,32 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.26.1",
     "bcrypt": "^5.0.1",
+    "bootstrap": "^5.0.2",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "crypto": "^1.0.1",
+    "csurf": "^1.11.0",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
+    "font-awesome": "^4.7.0",
+    "install": "^0.13.0",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.15",
-    "cookie-parser": "^1.4.5",
-    "crypto": "^1.0.1",
-    "csurf": "^1.11.0",
     "nodemailer": "^6.6.2",
-    "nodemailer-sendgrid-transport": "^0.2.0"
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.15",
+    "react-loader-spinner": "^6.0.0-0",
+    "react-notifications": "^1.7.3",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "simple-react-validator": "^1.6.0"
   }
 }
