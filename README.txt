@@ -32,7 +32,7 @@ PROJECT SETUP BACKEND
   > create a new nodeJS project 
     > npm init -y
     > sudo npm i nodemon -g
-    > npm i express cors ejs dotenv morgan mysql bcrypt jsonwebtoken
+    > npm i express cors ejs dotenv morgan mysql bcrypt jsonwebtoken mongoose
 
 
   > create an express server
@@ -81,6 +81,59 @@ PROJECT SETUP BACKEND
 
 
 
+PROJECT SETUP FRONTEND
+----------------------
+  > create a react app using create react app:  
+    > npm i create-react-app
+    > npx create-react-app frontend
+
+  > setup bootstrap, font awesome, simple react validator, react router dom, redux
+    > npm i 
+      bootstrap@5.0.2 
+      font-awesome@4.7.0 
+      simple-react-validator@1.6.0 
+      react-router-dom@5.2.0 
+      redux react-redux redux-thunk 
+      axios
+      react-notifications
+      react-loader-spinner
+
+
+  > Bootstrap and common functionality
+    > Import bootstrap and font-awesome
+    > Create a common utility for validation
+    > Ceate a common utility for API calls with Redux 
+    > Authentication
+      > isAuthenticated
+      > getAuthTOken
+      > clearLocalStorage
+
+  > ROUTING
+    > create public route and private route components 
+    > add routing for Home Page, Sign Up, Sign In, Forget Password, Rest Password, Change Password, Dashboard, 404 Not Found.
+    > / - Home
+    > /signup - Sign Up
+    > /signin - Sign IN
+    > /forgetpassword - Forget Password
+    > /resetpassword/:token - Rest Password
+    > /changepassword - Change Password 
+    > /dashboard - Dashboard
+    > * - 404 Not Found
+
+  > REGISTRATION
+    > Component Name - Register
+    > Required Fields:
+      > Username
+      > Password
+      > Confirm Password
+    > Validation:
+      > Valid Email and Password
+      > Password and Confirm Password should be matched.
+    > API: (POST Method)
+    > /signup
+    > Request Body:
+      > {username:"lee@gmail.com", password:"lee@123"}
+      > On Successful sign up Redirect to /signin
 
 
 

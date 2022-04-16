@@ -19,7 +19,7 @@ const {
   resetPassword,
   changepassword,
 } = require("../controllers/user.controller");
-const { authentication } = require("../middleware/authentication");
+const { authentication } = require("../middlewares/authentication");
 const router = express.Router();
 
 router.post("/signup", signupUser);

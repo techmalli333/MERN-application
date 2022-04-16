@@ -7,7 +7,7 @@ const {
   signinUserAccount,
 } = require("../models/user.model");
 const bcrypt = require("bcrypt");
-const { commonResponse } = require("../commom");
+const { commonResponse } = require("../common");
 const { NULL } = require("mysql/lib/protocol/constants/types");
 const { use } = require("bcrypt/promises");
 const jwt = require("jsonwebtoken");

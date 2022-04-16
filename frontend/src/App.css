@@ -1,0 +1,10 @@
+.srv-validation-message {
+  color: tomato;
+}
+.common-image {
+  width: 100%;
+  height: 200px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
